@@ -78,7 +78,7 @@ If required, environment-based configuration can be easily added later using imp
 
 ### ▶️ Running the Project Locally
 ## 1️⃣ Clone the repository
-git clone https://github.com/your-username/clueso-frontend.git
+git clone (https://github.com/Almas012/clueso-frontend.git)
 cd clueso-frontend
 
 ## 2️⃣ Install dependencies
