@@ -18,8 +18,8 @@ export default function Register() {
         password,
       });
 
-      localStorage.setItem("token", res.data.token);
-      navigate("/dashboard");
+      // On successful registration, redirect to the login page.
+      navigate("/login");
     } catch (err) {
       setError(err.response?.data?.message || "Registration failed");
     }
